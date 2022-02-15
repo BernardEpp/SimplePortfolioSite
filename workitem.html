@@ -31,17 +31,18 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="workitem.html?item=1">Item #1</a></li>
-        <li><a href="workitem.html?item=2">Item #2</a></li>
-        <li><a href="workitem.html?item=3">Item #3</a></li>
+        <li class="work-item-nav"><a href="workitem.html?item=1">Item #1</a></li>
+        <li class="work-item-nav"><a href="workitem.html?item=2">Item #2</a></li>
+        <li class="work-item-nav"><a href="workitem.html?item=3">Item #3</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h2>01. First Project</h2>
-    <img src="img/Bernard.min.jpg" alt="">
+    <h2 id="work-item-header">01. First Project</h2>
+    <img src="img/Bernard.min.jpg" alt="" id="work-item-image">
     <div id="project-text" class="work-item-text">
       <h3>The Project</h3>
+
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente quos facere qui beatae assumenda
         facilis est reprehenderit architecto cumque doloremque eaque, nobis, unde ad corrupti cupiditate similique,
         placeat voluptate?</p>
@@ -49,10 +50,7 @@
     <div id="technologies-text" class="work-item-text">
       <h3>The Technologies</h3>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>C#</li>
+        <li>A Technology</li>
       </ul>
     </div>
     <div id="challenges-text" class="work-item-text">
@@ -63,9 +61,10 @@
     </div>
 
   </main>
-  <footer>&copy; 2022 by Bernard Epp. Created with &hearts;. Please share &hearts;.</footer>
+  <footer>&copy; <span id="copyrightYear">1993</span> by Bernard Epp. <br> Created with &hearts;. Please share &hearts;.
+  </footer>
   <script src="js/app.js"></script>
-  <script></script>
+  <script>app.workItem()</script>
 </body>
 
 </html>

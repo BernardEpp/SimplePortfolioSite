@@ -30,38 +30,39 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="workitem.html?item=1">Item #1</a></li>
-        <li><a href="workitem.html?item=2">Item #2</a></li>
-        <li><a href="workitem.html?item=3">Item #3</a></li>
+        <li class="work-item-nav"><a href="workitem.html?item=1">Item #1</a></li>
+        <li class="work-item-nav"><a href="workitem.html?item=2">Item #2</a></li>
+        <!-- <li class="work-item-nav"><a href="workitem.html?item=3">Item #3</a></li> -->
       </ul>
     </nav>
   </header>
-  <main>
-    <div class="highlight">
+  <main id="portfolio-main">
+    <!-- <div class="highlight">
       <div>
-        <h2>01. Topic 1</h2>
+        <h2>01. <br> Topic 1</h2>
         <a href="workitem.html?item=1">see more</a>
       </div>
       <img src="img/Bernard.min.jpg" alt="An image showcasing my first project.">
     </div>
     <div class="highlight invert">
       <div>
-        <h2>02. Topic 2</h2>
+        <h2>02. <br> Topic 2</h2>
         <a href="workitem.html?item=2">see more</a>
       </div>
       <img src="img/Bernard.min.jpg" alt="An image showcasing my second project.">
     </div>
     <div class="highlight">
       <div>
-        <h2>03. Topic 3</h2>
+        <h2>03. <br> Topic 3</h2>
         <a href="workitem.html?item=3">see more</a>
       </div>
       <img src="img/Bernard.min.jpg" alt="An image showcasing my third project.">
-    </div>
+    </div> -->
   </main>
-  <footer>&copy; 2022 by Bernard Epp. Created with &hearts;. Please share &hearts;.</footer>
+  <footer>&copy; <span id="copyrightYear">1993</span> by Bernard Epp. <br> Created with &hearts;. Please share &hearts;.
+  </footer>
   <script src="js/app.js"></script>
-  <script></script>
+  <script>app.portfolio()</script>
 </body>
 
 </html>

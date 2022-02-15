@@ -1,0 +1,32 @@
+[
+  {
+    "title": "First Project",
+    "smallImage": "img/Bernard.min.jpg",
+    "smallImageAlt": "The small image alt.#1",
+    "largeImage": "img/Bernard.min.jpg",
+    "largeImageAlt": "The large image alt.#1",
+    "projectText": " Project #1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "challenges": " Challenges #1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "technologies": ["HTML", "CSS", "JavaScript", "C#"]
+  },
+  {
+    "title": "Second Project",
+    "smallImage": "img/Bernard.min.jpg",
+    "smallImageAlt": "The small image alt. #2",
+    "largeImage": "img/Bernard.min.jpg",
+    "largeImageAlt": "The large image alt #2.",
+    "projectText": " Project #2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "challenges": " Challenges #2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "technologies": ["Python"]
+  },
+  {
+    "title": "Third Project",
+    "smallImage": "img/Bernard.min.jpg",
+    "smallImageAlt": "The small image alt.#3",
+    "largeImage": "img/Bernard.min.jpg",
+    "largeImageAlt": "The large image alt. #3",
+    "projectText": " Project #3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "challenges": " Challenges #3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, numquam dignissimos veniam commodi perspiciatis vel quisquam? Et tenetur magni sed.",
+    "technologies": ["Java"]
+  }
+]
